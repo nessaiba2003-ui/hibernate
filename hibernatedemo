@@ -1,0 +1,56 @@
+Description
+
+Ce projet est une démonstration de l'utilisation de **Hibernate** (JPA) avec une base de données **H2** en mémoire. Il illustre la création d'entités JPA et l'implémentation d'opérations CRUD (Create, Read, Update, Delete).
+
+ Objectifs
+
+- Créer un projet Maven avec Hibernate
+- Configurer Hibernate avec une base de données H2
+- Créer des entités JPA
+- Implémenter des opérations d'insertion et de lecture
+- Gérer le cycle de vie des entités
+
+ Prérequis
+
+- **Java** 8 ou supérieur
+- **Maven** 3.6 ou supérieur
+- Un IDE (IntelliJ IDEA, Eclipse, ou VS Code)
+
+Structure du Projet
+hibernate-demo/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com.example/
+│ │ │ ├── Main.java # Classe principale
+│ │ │ ├── model/
+│ │ │ │ └── Produit.java # Entité JPA
+│ │ │ └── dao/
+│ │ │ └── ProduitDAO.java # Couche d'accès aux données
+│ │ └── resources/
+│ │ └── META-INF/
+│ │ └── persistence.xml # Configuration JPA
+│ └── test/
+│ └── java/
+└── pom.xml # Dépendances Maven
+
+  Le fichier src/main/resources/META-INF/persistence.xml configure :
+La connexion à la base de données H2 en mémoire
+Le dialecte Hibernate
+La génération automatique du schéma
+L'affichage des requêtes SQL
+
+  Fonctionnalités Implémentées
+ Création de projet Maven
+ Configuration Hibernate avec H2
+ Entité JPA avec annotations
+ Opérations CRUD (Create, Read, Update, Delete)
+ Gestion du cycle de vie des entités
+ Affichage des requêtes SQL
+ Technologies Utilisées
+Java : Langage de programmation
+Maven : Gestion de dépendances et build
+Hibernate : ORM (Object-Relational Mapping)
+JPA : Java Persistence API
+H2 : Base de données en mémoire
+realiser par NESSAIBA MESSADIYENE 
